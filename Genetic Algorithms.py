@@ -87,7 +87,7 @@ tpot_clf = TPOTClassifier(generations=number_generations, population_size=popula
 # # Fit the classifier to the training data
 tpot_clf.fit(X_train, y_train)
 
-# Best algorithm to fit our data:
+# Best algorithm to fit our data :
 # Best pipeline: DecisionTreeClassifier(RBFSampler(input_matrix, gamma=0.75),
 # criterion=entropy, max_depth=10, min_samples_leaf=12, min_samples_split=7)
 
